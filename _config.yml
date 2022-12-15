@@ -198,3 +198,17 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+#Set default front matter for drafts and posts
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      description:
+      image:
+      category:
+      tags:
+    posts:
+      description:
+      category:
+      tags:
+      published: true
+      sitemap: true

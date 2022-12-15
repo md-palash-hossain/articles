@@ -17,18 +17,7 @@
       <div class="footer-right">
         <p class="mb-0">
 
-          {% capture _platform %}
-          <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
-          {% endcapture %}
-
-          {% capture _theme %}
-          <a href="https://github.com/md-palash-hossain/jekyll-theme-nirdisto" target="_blank" rel="noopener">Nirdisto</a>
-          {% endcapture %}
-
-          {{ site.data.locales[site.lang].meta
-            | default: 'Powered by :PLATFORM with :THEME theme.'
-            | replace: ':PLATFORM', _platform | replace: ':THEME', _theme
-          }}
+         Designed by <a href="https://palash.nirdisto.com">Palash</a>.
         </p>
       </div>
     </div>
