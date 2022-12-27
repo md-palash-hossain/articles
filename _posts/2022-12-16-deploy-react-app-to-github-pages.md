@@ -7,6 +7,7 @@ category: [Programming,React]
 tags: react
 published: true
 sitemap: true
+author:
 ---
 
 The simplicity of deploying a static website with [GitHub Pages](https://pages.github.com/) is a process that can be easily transferred to React applications. With just a few steps, it’s easy to host a React app on GitHub Pages for free or build it to deploy on your own custom domain or subdomain.
@@ -74,7 +75,7 @@ Now, we’ll commit our code and push it to our branch on GitHub. To do this, si
 ```bash
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/nelsonmic/testxx.git
+git remote add origin https://github.com/md-palash-hossain/testxx.git
 git push -u origin main
 ```
 #### Adding the GitHub Pages dependency package
@@ -123,7 +124,7 @@ We can deploy our React app to GitHub’s domain for free, but Github Pages also
 |Custom subdomain|	`app.nirdisto.com`|
 |Apex domain|	`nirdisto.com`|
 
-Right now, if we navigate to https://nelsonmic.github.io/logdeploy/ we’ll see our recently published website. But, we could also use a custom subdomain or an Apex domain instead.
+We could also use a custom subdomain or an Apex domain instead.
 
 Here are the steps to set those up:
 
